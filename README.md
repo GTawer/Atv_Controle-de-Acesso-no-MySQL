@@ -89,85 +89,40 @@ O MySQL bloqueou as operações por falta de privilégios, apresentando mensagen
 
 ## 🖥️ Registros da atividade
 
-### 01 — Criação do usuário
+#### 01 — Criação do usuário e Concessão das permissões 
 
-> *Insira aqui o print da criação do usuário `aluno_bd`.*
+  <img src="https://github.com/GTawer/Controle-de-Acesso-no-MySQL/blob/main/imgs/2.png" alt="Listagem de clientes" width="65%" />
+</div>
 
-<p align="center">
 
-<!-- PRINT 01 -->
+#### 02 — Criação do banco e da tabela
 
-</p>
+  <img src="https://github.com/GTawer/Controle-de-Acesso-no-MySQL/blob/main/imgs/1.png" alt="Listagem de clientes" width="40%" />
+</div>
 
-### 02 — Criação do banco e da tabela
 
-> *Insira aqui o print da criação do banco `escola_jujutsu_dcl` e da tabela `feiticeiro`.*
+#### 03 — Acesso utilizando `aluno_bd`
 
-<p align="center">
+  <img src="https://github.com/GTawer/Controle-de-Acesso-no-MySQL/blob/main/imgs/3.png" alt="Listagem de clientes" width="50%" />
+</div>
 
-<!-- PRINT 02 -->
 
-</p>
+#### 04 — Execução das operações
 
-### 03 — Concessão das permissões
+  <img src="https://github.com/GTawer/Controle-de-Acesso-no-MySQL/blob/main/imgs/4.png" alt="Listagem de clientes" width="40%" />
+</div>
 
-> *Insira aqui o print do comando `GRANT`.*
+### 05 — Revogação das permissões
 
-<p align="center">
+  <img src="https://github.com/GTawer/Controle-de-Acesso-no-MySQL/blob/main/imgs/5.png" alt="Listagem de clientes" width="50%" />
+</div>
 
-<!-- PRINT 03 -->
 
-</p>
+#### 06 — Tentativa de acesso após o REVOKE
 
-### 04 — Acesso utilizando `aluno_bd`
+  <img src="https://github.com/GTawer/Controle-de-Acesso-no-MySQL/blob/main/imgs/6.png" alt="Listagem de clientes" width="50%" />
+</div>
 
-> *Insira aqui o print da conexão utilizando o usuário `aluno_bd`.*
-
-<p align="center">
-
-<!-- PRINT 04 -->
-
-</p>
-
-### 05 — Execução das operações
-
-> *Insira aqui os prints dos testes de SELECT, INSERT, UPDATE e DELETE.*
-
-<p align="center">
-
-<!-- PRINT 05 -->
-
-</p>
-
-### 06 — Revogação das permissões
-
-> *Insira aqui o print do comando `REVOKE` executado pelo administrador.*
-
-<p align="center">
-
-<!-- PRINT 06 -->
-
-</p>
-
-### 07 — Tentativa de acesso após o REVOKE
-
-> *Insira aqui o print da tentativa de acesso utilizando `aluno_bd` após a revogação.*
-
-<p align="center">
-
-<!-- PRINT 07 -->
-
-</p>
-
-### 08 — Mensagem de erro
-
-> *Insira aqui o print da mensagem de erro apresentada pelo MySQL.*
-
-<p align="center">
-
-<!-- PRINT 08 -->
-
-</p>
 
 ## 🧠 Conceitos praticados
 
@@ -195,7 +150,7 @@ O MySQL bloqueou as operações por falta de privilégios, apresentando mensagen
 
 ◆ **SQL** — linguagem utilizada para manipulação e controle do banco.
 
-## 🎯 Resultado
+## ◈ Resultado
 
 A atividade permitiu compreender e comprovar, na prática, o funcionamento dos mecanismos de controle de acesso do MySQL.
 
